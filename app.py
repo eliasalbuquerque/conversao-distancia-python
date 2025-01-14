@@ -31,12 +31,12 @@ def index():
         elif selecao == '2':  # Quilômetros para Metro
             resultado = valor * 1000
             unidade = "metros"
-        elif selecao == '3':  # Metro para Milhas
-            resultado = valor / 1609.34
+        elif selecao == '3':  # Quilometro para Milhas
+            resultado = valor / 1.60934
             unidade = "milhas"
-        elif selecao == '4':  # Milhas para Metro
-            resultado = valor * 1609.34
-            unidade = "metros"
+        elif selecao == '4':  # Milhas para Quilometro
+            resultado = valor * 1.60934
+            unidade = "quilômetros"
         elif selecao == '5':  # Metro para Pés
             resultado = valor * 3.28084
             unidade = "pés"
